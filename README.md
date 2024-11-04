@@ -4,11 +4,17 @@ This script demonstrates how a BadUSB device can autonomously initiate a termina
 
 ## Steps
 
-1. **Open Terminal**: The script initiates the Terminal application, which is used for command-line operations on macOS.
+1. **Opens Terminal**: The script initiates the Terminal application, which is used for command-line operations on macOS.
 
-2. **Establish a Reverse Shell**: It then executes a command that creates a hidden connection to a remote server, enabling unauthorized access to the macOS system without user awareness.
+2. **Establishes a Reverse Shell**: It then executes a command that creates a hidden connection to a remote server, enabling unauthorized access to the macOS system without user awareness.
 
-3. **Terminate the Terminal Session**: Finally, the script closes the Terminal window, ensuring that the user is unaware of any executed commands.
+3. **Terminates the Terminal Session**: Finally, the script closes the Terminal window, ensuring that the user is unaware of any executed commands.
+
+---
+
+## Advanced Script(BadUSB Attacks on MacOS)
+[Beyond Using the Terminal and Shell](https://youtu.be/ir7fw8U0qT0?si=41x5irx9v_RknvZg)
+
 
 ---
 
