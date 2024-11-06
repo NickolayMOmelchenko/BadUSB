@@ -19,6 +19,7 @@ This script demonstrates how a BadUSB device can autonomously initiate a termina
 
 ## Setup
 For the scripting language format and instructions on how to upload new payloads, follow the link below.
+
 [flipper/bad-usb](https://docs.flipper.net/bad-usb)
 
 ---
