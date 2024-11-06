@@ -15,7 +15,11 @@ This script demonstrates how a BadUSB device can autonomously initiate a termina
 ## Advanced Script(BadUSB Attacks on MacOS)
 [Beyond Using the Terminal and Shell](https://youtu.be/ir7fw8U0qT0?si=41x5irx9v_RknvZg)
 
-
 ---
 
+## Setup
+For the scripting language format and instructions on how to upload new payloads, follow the link below.
+[flipper/bad-usb](https://docs.flipper.net/bad-usb)
+
+---
 > **Important Note:** This script is intended for educational and demonstration purposes only. It should not be used for any unauthorized or malicious activities. Always respect the privacy and security of others.
